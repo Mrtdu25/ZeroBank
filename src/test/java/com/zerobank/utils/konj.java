@@ -6,7 +6,7 @@ public class konj {
         //idemo sada necemo veceras
         //znas da sam uvek bio dobar momak
 
-
+        //nikola macola
 
         //familija be
 
