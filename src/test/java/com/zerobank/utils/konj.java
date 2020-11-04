@@ -5,6 +5,7 @@ public class konj {
         //update horse
         //idemo sada necemo veceras
         //znas da sam uvek bio dobar momak
+        //napred vise ne mogu nazad nemam kud
 
 
 
