@@ -1,5 +1,6 @@
 package com.zerobank.step_definitions;
 
+import com.zerobank.pages.LoginPage;
 import com.zerobank.utils.BrowserUtils;
 import com.zerobank.utils.ConfigurationReader;
 import com.zerobank.utils.Driver;
@@ -10,7 +11,7 @@ import io.cucumber.java.en.When;
 import javax.swing.*;
 
 public class Login_steps {
-
+    LoginPage loginPage = new LoginPage();
     @Given("user is on the landing page")
     public void user_is_on_the_landing_page() {
 
@@ -20,8 +21,7 @@ public class Login_steps {
 
     @When("user logs in")
     public void user_logs_in() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        loginPage.login();
     }
     @Then("user should see ZeroBank homepage")
     public void user_should_see_zero_bank_homepage() {
