@@ -19,6 +19,10 @@ public class LoginPage extends BasePage{
     @FindBy(xpath = "//*[@id='login_form']/div[1]")
     WebElement errorMessage;
 
+
+
+
+
     public void login() {
         usernameBox.sendKeys(ConfigurationReader.getProperty("username"));
         passwordBox.sendKeys(ConfigurationReader.getProperty("password"));
