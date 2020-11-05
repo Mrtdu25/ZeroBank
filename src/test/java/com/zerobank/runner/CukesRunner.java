@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "com/zerobank/step_definitions",
-        tags = "@login",
-        dryRun = false,
+        tags = "@savings_select",
+        dryRun = true,
         publish = false
 
 
