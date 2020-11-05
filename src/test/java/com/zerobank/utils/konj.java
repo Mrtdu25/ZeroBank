@@ -8,6 +8,7 @@ public class konj {
 
         //napred vise ne mogu nazad nemam kud
 // idemo 3 putvfdhfhg/dsfsdfsdfssfssd
+        System.out.println("added something");
 
 
 
