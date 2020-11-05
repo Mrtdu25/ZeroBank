@@ -7,7 +7,8 @@ public class konj {
         //znas da sam uvek bio dobar momak
 
         //napred vise ne mogu nazad nemam kud
-// idemo 3 putvfdhfhg
+// idemo 3 putvfdhfhg/dsfsdfsdfssfssd
+        System.out.println("added something");
 
 
 
@@ -15,7 +16,7 @@ public class konj {
 
 
         //familija be
-
+//I added some line of code
 
 
     }
