@@ -12,7 +12,7 @@ public class AccountActivity extends AccountSummaryPage{
 
     Select accountSelect = new Select(accountDropdown);
 
-    public void isChoosenOptionSelected(String str){
+    public void isChosenOptionSelected(String str){
         Assert.assertEquals("wrong selected",str,accountSelect.getFirstSelectedOption().getText());
     }
 }
