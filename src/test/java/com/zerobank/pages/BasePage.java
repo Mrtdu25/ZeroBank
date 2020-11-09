@@ -24,5 +24,9 @@ public abstract class BasePage {
         return Driver.getDriver().getCurrentUrl();
     }
 
+    public boolean pageUrlIsContains(String str){
+        String acctualUrl = Driver.getDriver().getCurrentUrl();
+        return acctualUrl.contains(str.toLowerCase());
+    }
 
 }

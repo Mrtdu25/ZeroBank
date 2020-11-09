@@ -1,12 +1,14 @@
 @account_activity
 Feature: Navigating to specific accounts in Accounts Activity
 
-  #Background: common steps
-   # Given user is on the homepage page
+ Background: common steps
 
+   Given user is on the landing page
+   When user logs in
+   Then user should see ZeroBank homepage
   @savings_select
   Scenario: Savings account redirect
-    Given user is on the homepage page
+
     When the user clicks on "Savings" link on the Account Summary page
     Then the "Account-Activity" page should be displayed
     And Account drop down should have "Savings" selected
