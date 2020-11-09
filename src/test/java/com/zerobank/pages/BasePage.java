@@ -18,7 +18,10 @@ public abstract class BasePage {
 
     public String getHomePageOfZeroBank(){
         return getHomePage.getText().trim();
+    }
 
+    public String getPageUrl(){
+        return Driver.getDriver().getCurrentUrl();
     }
 
     public boolean pageUrlIsContains(String str){
